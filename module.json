@@ -1,1 +1,19 @@
-
+{
+  "name": "AventurischeBuchkarten",
+  "title": "Buchkarten Modul",
+  "description": "A simple module created as a demo for working in the Foundry Virtual Tabletop framework.",
+  "author": "tim09bu",
+  "manifest": "https://raw.githubusercontent.com/tim09bu/AventurischeBuchkarten/main/module.json",
+  "version": "1.0.2",
+  "minimumCoreVersion": "9",
+  "socket": true,
+  "url": "https://github.com/tim09bu/AventurischeBuchkarten",
+  "download": "https://github.com/tim09bu/AventurischeBuchkarten/archive/refs/heads/main.zip",
+  "readme": "https://github.com/tim09bu/AventurischeBuchkarten/blob/master/README.md",
+  "changelog": "https://github.com/tim09bu/AventurischeBuchkarten/blob/master/CHANGELOG.md",
+  "bugs": "https://github.com/tim09bu/AventurischeBuchkarten/issues",
+  "allowBugReporter": true,
+  "scripts": [
+  "scripts/hallowelt.js"
+]
+}
