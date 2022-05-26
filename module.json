@@ -14,6 +14,6 @@
   "bugs": "https://github.com/tim09bu/AventurischeBuchkarten/issues",
   "allowBugReporter": true,
   "scripts": [
-  "scripts/hallowelt.js"
+  "scripts/buchkarten_main.js"
 ]
 }
