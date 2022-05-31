@@ -15,5 +15,14 @@
   "allowBugReporter": true,
   "scripts": [
   "scripts/buchkarten_main.js"
+  "packs": [
+    {
+      "name": "macros",
+      "label": "Banner der Treue",
+      "path": "packs/banner-der-treue.db",
+      "entity": "Macro",
+      "moduele":"AventurischeBuchkarten"
+    }
+  ]
 ]
 }
