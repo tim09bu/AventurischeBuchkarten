@@ -4,7 +4,7 @@
   "description": "A simple module created as a demo for working in the Foundry Virtual Tabletop framework.",
   "author": "tim09bu",
   "manifest": "https://raw.githubusercontent.com/tim09bu/AventurischeBuchkarten/main/module.json",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "minimumCoreVersion": "9",
   "socket": true,
   "url": "https://github.com/tim09bu/AventurischeBuchkarten",
@@ -14,6 +14,15 @@
   "bugs": "https://github.com/tim09bu/AventurischeBuchkarten/issues",
   "allowBugReporter": true,
   "scripts": [
-  "scripts/hallowelt.js"
+  "scripts/buchkarten_main.js"
+  "packs": [
+    {
+      "name": "macros",
+      "label": "Banner der Treue",
+      "path": "packs/banner-der-treue.db",
+      "entity": "Macro",
+      "moduele":"AventurischeBuchkarten"
+    }
+  ]
 ]
 }
